@@ -1,0 +1,22 @@
+
+#container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed red;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#page {
+  width: 150%;
+  height: 150%;
+}
+
+#page-container {
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}

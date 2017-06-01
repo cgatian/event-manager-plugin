@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div id="container" (tap)="tap()" (pinchstart)="onPinchStart()" (pinchpan)="onPinchMove()">
+  <div id="page-container">
+    <div id="page" #page>
+      <img class="test-image" src="https://www.fillmurray.com/200/300" />
+    </div>
+  </div>
+</div>
+<div #log></div>
